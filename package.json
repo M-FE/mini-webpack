@@ -1,0 +1,17 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "Code a mini webpack to study & understand its principle",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "mini-webpack"
+  ],
+  "author": "willemwei023@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M-FE/mini-webpack.git"
+  }
+}
