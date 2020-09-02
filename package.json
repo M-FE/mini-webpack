@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Code a mini webpack to study & understand its principle",
   "main": "index.js",
+  "files": [
+    "./bin"
+  ],
   "scripts": {
+    "start": "webpack"
   },
   "keywords": [
     "mini-webpack"
@@ -13,5 +17,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/M-FE/mini-webpack.git"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "loader-utils": "^2.0.0"
   }
 }

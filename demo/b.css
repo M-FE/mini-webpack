@@ -1,0 +1,7 @@
+body::before {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    content: 'Hello World';
+}
