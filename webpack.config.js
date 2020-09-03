@@ -18,7 +18,17 @@ module.exports = {
                 test: /\.css/,
                 use: [
                     {
-                        loader: resolve('./bin/style-loader.js')
+                        loader: resolve('./loaders/style-loader'),
+                        // loader: 'style-loader',
+                        options: {
+                            attributes: {
+                                id: 'style',
+                                name: 'style'
+                            },
+                            insert: function(element) {
+                                document.getElementById('app').appendChild(element);
+                            }
+                        }
                     },
                     'css-loader'
                 ]

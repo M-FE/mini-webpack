@@ -1,16 +1,18 @@
 {
-  "name": "mini-webpack",
+  "name": "mini-webpack-loaders-plugins",
   "version": "1.0.0",
-  "description": "Code a mini webpack to study & understand its principle",
+  "description": "Code some common mini webpack'loaders & plugins to study & understand their principles.",
   "main": "index.js",
   "files": [
-    "./bin"
+    "./loaders",
+    "./plugins"
   ],
   "scripts": {
     "start": "webpack"
   },
   "keywords": [
-    "mini-webpack"
+    "mini-webpack-loaders",
+    "mini-webpack-plugins"
   ],
   "author": "willemwei023@gmail.com",
   "license": "ISC",
@@ -27,6 +29,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "loader-utils": "^2.0.0"
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^2.7.1"
   }
 }
