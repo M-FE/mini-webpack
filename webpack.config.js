@@ -32,6 +32,21 @@ module.exports = {
                     },
                     'css-loader'
                 ]
+            },
+            {
+                test: /\.s[ca]ss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    {
+                        loader: resolve('./loaders/sass-loader'),
+                        options: {
+                            sassOptions: {
+                                indentWidth: 8
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

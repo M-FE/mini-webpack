@@ -18,7 +18,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/M-FE/mini-webpack.git"
+    "url": "https://github.com/M-FE/mini-webpack-loaders-plugins.git"
   },
   "devDependencies": {
     "css-loader": "^4.2.2",
